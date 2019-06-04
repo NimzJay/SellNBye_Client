@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Register | SellNBye</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="assets/css/bootstrap.css" rel="stylesheet" />
+<link href="style.css" rel="stylesheet" />
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container">
+		<div id="gototop"></div>
+		<header id="header"> </header>
+		<div class="navbar">
+			<div class="navbar-inner">
+				<div class="container">
+					<a data-target=".nav-collapse" data-toggle="collapse"
+						class="btn btn-navbar"> <span class="icon-bar"></span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span>
+					</a>
+					<div class="nav-collapse">
+						<ul class="nav">
+							<li class=""><a href="users.html">User List</a></li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div id="sidebar" class="span3">
+				<div class="span9">
+
+					<div class="well well-small">
+						<form id="add_User_form" class="form-horizontal">
+							<h3>User Details</h3>
+							<div class="control-group">
+								<label class="control-label" for="addUser_fname">First
+									Name<sup>*</sup>
+								</label>
+								<div class="controls">
+									<input type="text" id="addUser_fname"><span
+										class="label label-info" id="fname_error_msg"></span>
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="addUser_lname">Last
+									Name<sup>*</sup>
+								</label>
+								<div class="controls">
+									<input type="text" id="addUser_lname"><span
+										class="label label-info" id="lname_error_msg"></span>
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="addUser_username">Username<sup>*</sup></label>
+								<div class="controls">
+									<input type="text" id="addUser_username"><span
+										class="label label-info" id="username_error_msg"></span>
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="addUser_password">Password<sup>*</sup></label>
+								<div class="controls">
+									<input type="text" id="addUser_password"><span
+										class="label label-info" id="password_error_msg"></span>
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="addUser_dob">Date of
+									Birth<sup>*</sup>
+								</label>
+								<div class="controls">
+									<input type="text" id="addUser_dob">
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="addUser_nic">NIC<sup>*</sup></label>
+								<div class="controls">
+									<input type="text" id="addUser_nic">
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="addUser_email">Email<sup>*</sup></label>
+								<div class="controls">
+									<input type="text" id="addUser_email"><span
+										class="label label-info" id="email_error_msg"></span>
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="addUser_phone">Phone<sup>*</sup></label>
+								<div class="controls">
+									<input type="text" id="addUser_phone"><span
+										class="label label-info" id="phone_error_msg"></span>
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="addUser_address">Address<sup>*</sup></label>
+								<div class="controls">
+									<input type="text" id="addUser_address">
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="addUser_type">Type<sup>*</sup></label>
+								<div class="controls">
+									<input type="text" id="addUser_type">
+								</div>
+							</div>
+							<div class="control-group">
+								<div class="controls">
+									<input type="submit" id="addUser" name="submitUser"
+										value="Submit" class="exclusive shopBtn">
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<a href="#" class="gotop"><i class="icon-double-angle-up"></i></a>
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.easing-1.3.min.js"></script>
+	<script src="assets/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="assets/js/shop.js"></script>
+	<script src="scripts/user_handler.js"></script>
+	<script src="scripts/validation.js"></script>
+	<script src="scripts/addUser.js"></script>
+</body>
+</html>
